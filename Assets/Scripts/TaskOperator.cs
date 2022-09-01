@@ -10,6 +10,8 @@ namespace DefaultNamespace
     {
         public Button TaskStartButton;
         public Button TaskStopButton;
+        public Text TimeFromStartValue;
+        public Text UpdatesFromStartValue;
         public bool _isTasksStarted;
         CancellationTokenSource _cancelTokenSource;
         CancellationToken _cancelToken;
@@ -17,8 +19,11 @@ namespace DefaultNamespace
         private void Start()
         {
             Application.targetFrameRate = 60;
+            TimeFromStartValue.text = "0.0";
+            UpdatesFromStartValue.text = "0";
             TaskStartButton.onClick.AddListener(StartOperation);
             TaskStopButton.onClick.AddListener(Cancel);
+            TaskStopButton.interactable = false;
         }
 
         public void StartOperation()
@@ -33,6 +38,9 @@ namespace DefaultNamespace
 
         private async void RunTasksAsync(CancellationToken cancelToken)
         {
+            TaskStopButton.interactable = true;
+            TimeFromStartValue.text = "0.0";
+            UpdatesFromStartValue.text = "0";
             var task1 = TimeLogAsync(cancelToken);
             var task2 = UpdateLogAsync(cancelToken);
             var resultTask = await Task.WhenAny(task1, task2);
@@ -41,11 +49,12 @@ namespace DefaultNamespace
             _isTasksStarted = false;
             _cancelTokenSource.Cancel(); // stop other tasks
             _cancelTokenSource.Dispose();
+            TaskStopButton.interactable = false;
         }
 
         public void Cancel()
         {
-            _cancelTokenSource.Cancel();
+           _cancelTokenSource.Cancel();
         }
 
         private async Task<bool> TimeLogAsync(CancellationToken cancelToken)
@@ -62,6 +71,7 @@ namespace DefaultNamespace
 
                 await Task.Yield();
                 time += Time.deltaTime;
+                TimeFromStartValue.text = time.ToString();
             }
 
             return true;
@@ -80,6 +90,7 @@ namespace DefaultNamespace
 
                 await Task.Yield();
                 updates++;
+                UpdatesFromStartValue.text = updates.ToString();
             }
         
             return false;
@@ -89,7 +100,7 @@ namespace DefaultNamespace
         {
             TaskStartButton.onClick.RemoveAllListeners();
             TaskStopButton.onClick.RemoveAllListeners();
-            _cancelTokenSource.Dispose();
+            if (_cancelTokenSource != null) _cancelTokenSource.Dispose();
         }
     }
 }
