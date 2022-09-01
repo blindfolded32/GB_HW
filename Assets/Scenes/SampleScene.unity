@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136.7499, y: -110.7122}
+  m_AnchoredPosition: {x: -86, y: -64}
   m_SizeDelta: {x: 104.5001, y: 39.4245}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &15983123
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 136608002}
   - component: {fileID: 136608001}
   m_Layer: 5
-  m_Name: StopButton
+  m_Name: CancelTask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -386,7 +386,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 136608002}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 511bd82a779440e48c21c9cef42cc45f, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &136608002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,7 +450,7 @@ GameObject:
   - component: {fileID: 358639901}
   - component: {fileID: 358639900}
   m_Layer: 5
-  m_Name: RegenButton
+  m_Name: StartTask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,13 +520,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: f5a0ee1b5575b5143becd69bb406e21c, type: 3}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 11500000, guid: 511bd82a779440e48c21c9cef42cc45f, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -680,6 +692,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 511bd82a779440e48c21c9cef42cc45f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TaskStartButton: {fileID: 358639900}
+  TaskStopButton: {fileID: 136608001}
   _isTasksStarted: 0
 --- !u!4 &725618510
 Transform:
@@ -795,7 +809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -52.6698, y: -110.7122}
+  m_AnchoredPosition: {x: -1.9199219, y: -64}
   m_SizeDelta: {x: 63.6606, y: 39.4245}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &872633155
@@ -910,7 +924,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start Regen
+  m_Text: Start Task
 --- !u!222 &880652816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -949,7 +963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxHP: 100
-  _text: {fileID: 0}
+  _text: {fileID: 872633155}
 --- !u!4 &919086305
 Transform:
   m_ObjectHideFlags: 0
@@ -1154,7 +1168,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stop
+  m_Text: Stop Task
 --- !u!222 &1929514438
 CanvasRenderer:
   m_ObjectHideFlags: 0

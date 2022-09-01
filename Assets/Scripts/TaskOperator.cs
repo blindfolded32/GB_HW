@@ -70,7 +70,7 @@ namespace DefaultNamespace
         private async Task<bool> UpdateLogAsync(CancellationToken cancelToken)
         {
             var updates = 0;
-            while (updates < 50) 
+            while (updates < 59) 
             {
                 if (cancelToken.IsCancellationRequested)
                 {
