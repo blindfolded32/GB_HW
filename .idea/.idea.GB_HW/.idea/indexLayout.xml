@@ -3,6 +3,7 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Assets</Path>
       <Path>Library/PackageCache/com.unity.burst@1.4.11</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.5.7</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.6</Path>
@@ -22,6 +23,7 @@
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>OnlineShooter</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>

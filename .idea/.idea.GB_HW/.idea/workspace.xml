@@ -11,7 +11,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Material/SphereShader.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Material/Wave.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -23,6 +25,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HW2/Part3.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HW2/Part2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HW2/end.cs" />
+        <option value="$PROJECT_DIR$/Assets/Material/Wave.shader" />
+        <option value="$PROJECT_DIR$/Assets/Material/SphereShader.shader" />
       </list>
     </option>
   </component>
@@ -49,10 +53,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="55744">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="55744" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -73,6 +77,7 @@
       <workItem from="1662054640629" duration="3457000" />
       <workItem from="1662310802028" duration="5643000" />
       <workItem from="1662399503172" duration="6886000" />
+      <workItem from="1663336405266" duration="5735000" />
     </task>
     <servers />
   </component>
