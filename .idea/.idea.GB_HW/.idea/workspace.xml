@@ -11,9 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Material/SphereShader.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Material/Wave.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -27,6 +25,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HW2/end.cs" />
         <option value="$PROJECT_DIR$/Assets/Material/Wave.shader" />
         <option value="$PROJECT_DIR$/Assets/Material/SphereShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/Material/ShadersV2/PlanetShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/Material/ShadersV2/StensilSphere.shader" />
+        <option value="$PROJECT_DIR$/Assets/Material/ShadersV2/StencilSurfaceShader.shader" />
       </list>
     </option>
   </component>
@@ -78,6 +79,7 @@
       <workItem from="1662310802028" duration="5643000" />
       <workItem from="1662399503172" duration="6886000" />
       <workItem from="1663336405266" duration="5735000" />
+      <workItem from="1663602173009" duration="302000" />
     </task>
     <servers />
   </component>
