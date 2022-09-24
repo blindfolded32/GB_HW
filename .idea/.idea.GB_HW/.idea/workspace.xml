@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c533d182-099e-49c3-b823-6311b24bcd4b" name="Default Changelist" comment="" />
+    <list default="true" id="e6b1d2e2-5fee-43e4-9a7a-36a795bb6093" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,30 +10,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TaskOperator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RegenCorutine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HW2/Part1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HW2/Part3.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HW2/Part2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HW2/end.cs" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="2E2bUOA2HR4ypzsX3QoJiFqeNYo" />
+  <component name="ProjectId" id="2FE8O54wjoHj39b2nmwvs6lr848" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008045" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,10 +31,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="55744">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12600">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="55744" />
+      <option name="pid" value="12600" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -62,17 +44,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c533d182-099e-49c3-b823-6311b24bcd4b" name="Default Changelist" comment="" />
-      <created>1661796641876</created>
+      <changelist id="e6b1d2e2-5fee-43e4-9a7a-36a795bb6093" name="Default Changelist" comment="" />
+      <created>1664045852253</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661796641876</updated>
-      <workItem from="1661796660154" duration="1594000" />
-      <workItem from="1661872792600" duration="4736000" />
-      <workItem from="1662009427466" duration="2509000" />
-      <workItem from="1662054640629" duration="3457000" />
-      <workItem from="1662310802028" duration="5643000" />
-      <workItem from="1662399503172" duration="6886000" />
+      <updated>1664045852253</updated>
+      <workItem from="1664045858778" duration="317000" />
     </task>
     <servers />
   </component>
@@ -85,81 +62,56 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="468" height="464" key="DebuggerActiveHint" timestamp="1662313302791">
+    <state width="1236" height="375" key="GridCell.Tab.0.bottom" timestamp="1664045907892">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="468" height="464" key="DebuggerActiveHint/0.0.2560.1050@0.0.2560.1050" timestamp="1662313302791" />
-    <state width="2517" height="379" key="GridCell.Tab.0.bottom" timestamp="1662408096745">
+    <state width="1236" height="375" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1664045907892" />
+    <state width="1236" height="375" key="GridCell.Tab.0.center" timestamp="1664045907892">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="379" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1662408096745" />
-    <state width="2517" height="379" key="GridCell.Tab.0.center" timestamp="1662408096744">
+    <state width="1236" height="375" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1664045907892" />
+    <state width="1236" height="375" key="GridCell.Tab.0.left" timestamp="1664045907892">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="379" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1662408096744" />
-    <state width="2517" height="379" key="GridCell.Tab.0.left" timestamp="1662408096744">
+    <state width="1236" height="375" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1664045907892" />
+    <state width="1236" height="375" key="GridCell.Tab.0.right" timestamp="1664045907892">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="379" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1662408096744" />
-    <state width="2517" height="379" key="GridCell.Tab.0.right" timestamp="1662408096744">
+    <state width="1236" height="375" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1664045907892" />
+    <state width="1236" height="375" key="GridCell.Tab.1.bottom" timestamp="1664046171260">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="379" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1662408096744" />
-    <state width="2517" height="379" key="GridCell.Tab.1.bottom" timestamp="1662408135363">
+    <state width="1236" height="375" key="GridCell.Tab.1.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1664046171260" />
+    <state width="1236" height="375" key="GridCell.Tab.1.center" timestamp="1664046171260">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="379" key="GridCell.Tab.1.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1662408135363" />
-    <state width="2517" height="379" key="GridCell.Tab.1.center" timestamp="1662408135363">
+    <state width="1236" height="375" key="GridCell.Tab.1.center/0.0.2560.1050@0.0.2560.1050" timestamp="1664046171260" />
+    <state width="1236" height="375" key="GridCell.Tab.1.left" timestamp="1664046171260">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="379" key="GridCell.Tab.1.center/0.0.2560.1050@0.0.2560.1050" timestamp="1662408135363" />
-    <state width="2517" height="379" key="GridCell.Tab.1.left" timestamp="1662408135363">
+    <state width="1236" height="375" key="GridCell.Tab.1.left/0.0.2560.1050@0.0.2560.1050" timestamp="1664046171260" />
+    <state width="1236" height="375" key="GridCell.Tab.1.right" timestamp="1664046171260">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="379" key="GridCell.Tab.1.left/0.0.2560.1050@0.0.2560.1050" timestamp="1662408135363" />
-    <state width="2517" height="379" key="GridCell.Tab.1.right" timestamp="1662408135363">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1662408135363" />
-    <state width="2517" height="379" key="GridCell.Tab.2.bottom" timestamp="1662325552035">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.2.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1662325552035" />
-    <state width="2517" height="379" key="GridCell.Tab.2.center" timestamp="1662325552035">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.2.center/0.0.2560.1050@0.0.2560.1050" timestamp="1662325552035" />
-    <state width="2517" height="379" key="GridCell.Tab.2.left" timestamp="1662325552035">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.2.left/0.0.2560.1050@0.0.2560.1050" timestamp="1662325552035" />
-    <state width="2517" height="379" key="GridCell.Tab.2.right" timestamp="1662325552035">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.2.right/0.0.2560.1050@0.0.2560.1050" timestamp="1662325552035" />
-    <state width="2517" height="379" key="GridCell.Tab.3.bottom" timestamp="1662325552036">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.3.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1662325552036" />
-    <state width="2517" height="379" key="GridCell.Tab.3.center" timestamp="1662325552035">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.3.center/0.0.2560.1050@0.0.2560.1050" timestamp="1662325552035" />
-    <state width="2517" height="379" key="GridCell.Tab.3.left" timestamp="1662325552035">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.3.left/0.0.2560.1050@0.0.2560.1050" timestamp="1662325552035" />
-    <state width="2517" height="379" key="GridCell.Tab.3.right" timestamp="1662325552036">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="379" key="GridCell.Tab.3.right/0.0.2560.1050@0.0.2560.1050" timestamp="1662325552036" />
-    <state x="886" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1662313755814">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state x="886" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1662313755814" />
-    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1662409965737">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1662409965737" />
+    <state width="1236" height="375" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1664046171260" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Main/SolarSystemNetworkManager.cs</url>
+          <line>131</line>
+          <properties documentPath="C:\Users\1\Documents\GitHub\GB_HW\Assets\Scripts\Main\SolarSystemNetworkManager.cs" initialLine="131">
+            <startOffsets>
+              <option value="4903" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4926" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
