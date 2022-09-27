@@ -18,10 +18,10 @@ Shader "CustomRP/NewLit" {
 	
 	SubShader {
 		Pass {
-			Tags {
+		/*	Tags {
 				"LightMode" = "CustomLit"
 			}
-
+*/
 			Blend [_SrcBlend] [_DstBlend]
 			ZWrite [_ZWrite]
 
