@@ -10,6 +10,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../GB_OnlineRPG/Assets/Scripts/SRP/Lightning.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Shaders/LitPass.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/LitPassAtmosphere.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/LitPass 1.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/LitPassRing.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/UnlitPass.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/SriptShaders/CameraRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/SriptShaders/CameraRenderer.Editor.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="2FE8O54wjoHj39b2nmwvs6lr848" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,10 +47,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12600">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12600" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -50,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664045852253</updated>
       <workItem from="1664045858778" duration="317000" />
+      <workItem from="1664222377655" duration="2982000" />
     </task>
     <servers />
   </component>
@@ -94,24 +111,5 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1236" height="375" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1664046171260" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Main/SolarSystemNetworkManager.cs</url>
-          <line>131</line>
-          <properties documentPath="C:\Users\1\Documents\GitHub\GB_HW\Assets\Scripts\Main\SolarSystemNetworkManager.cs" initialLine="131">
-            <startOffsets>
-              <option value="4903" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4926" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
