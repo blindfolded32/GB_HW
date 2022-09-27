@@ -1,5 +1,5 @@
-﻿#ifndef CUSTOM_UNLIT_PASS_INCLUDED
-#define CUSTOM_UNLIT_PASS_INCLUDED
+﻿#ifndef CUSTOM_UNLIT_INCLUDED
+#define CUSTOM_UNLIT_INCLUDED
 
 #include "../ShaderLib/Common.hlsl"
 
