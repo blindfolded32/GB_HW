@@ -33,6 +33,17 @@
           <e p="Data" t="Include">
             <e p="SpaceShipSettings.cs" t="Include" />
           </e>
+          <e p="Editor" t="Include">
+            <e p="ColorPointDrawer.cs" t="Include" />
+            <e p="CustomShaderGUI.cs" t="Include" />
+            <e p="SpawnPointsMapEditor.cs" t="Include" />
+            <e p="SpawnPointsMapWindow.cs" t="Include" />
+            <e p="StarEditor.cs" t="Include" />
+          </e>
+          <e p="Fractal" t="Include">
+            <e p="Fractal.cs" t="Include" />
+            <e p="RotationJob.cs" t="Include" />
+          </e>
           <e p="Main" t="Include">
             <e p="MessageBool.cs" t="Include" />
             <e p="MessageInt.cs" t="Include" />
@@ -63,12 +74,21 @@
             <e p="SpaceRunPipelineRender.cs" t="Include" />
             <e p="SpaceRunPipelineRenderAsset.cs" t="Include" />
           </e>
+          <e p="Star" t="Include">
+            <e p="Color" t="Include">
+              <e p="ColorPoint.cs" t="Include" />
+              <e p="ColorPointTester.cs" t="Include" />
+            </e>
+            <e p="Star.cs" t="Include" />
+            <e p="Star.shader" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="PlayerLabel.cs" t="Include" />
           </e>
           <e p="Utilities" t="Include">
             <e p="CameraExtension.cs" t="Include" />
             <e p="PlanetsMoveJob.cs" t="Include" />
+            <e p="SpawnPointsMap.cs" t="Include" />
           </e>
         </e>
         <e p="ShaderLib" t="Include">
